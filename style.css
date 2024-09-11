@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    background-image: url(bg.jpg);
+}
+
+.port {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 1cm;
+    font-weight: 100;
+    font-style: normal;
+    color: rgb(54, 133, 202);
+    position: relative;
+    top: 65px;
+    left: 207px;
+    display: inline-block;
+}
+
+.home {
+    display: flex;
+    justify-content: end;
+    position: relative;
+    top: -50px;
+}
+
+.navb {
+    color: aliceblue;
+    margin: 30px;
+    cursor: pointer;
+}
+
+
+/* main {
+    display: flex;
+    justify-content: left;
+}
+
+.image {
+    height: 300px;
+    width: 300px;
+    border-radius: 247px;
+    position: relative;
+    top: 0px;
+    left: 783px;
+    border: 20px solid rgb(57, 54, 223);
+}
+
+.text {
+ display: flex;
+ justify-content: flex-start;
+    margin-right: 200px;
+}
+
+.hello {
+    background-color: transparent;
+    color: aliceblue;
+    font-size: xx-large;
+    position: relative;
+    left: 195px;
+    top: 133px;
+    
+*/
+
+.content {
+    color: aliceblue;
+    position: relative;
+    left: 195px;
+    top: 133px;
+}
+
+.intro {
+    font-size: xx-large;
+}
+
+.name {
+    font-size: 1cm;
+}
+
+.front {
+    font-size: 1cm;
+    color: aqua;
+}
+
+.icon {
+    display: flex;
+    /* Align icons horizontally */
+    justify-content: left;
+    /* Center icons horizontally */
+    gap: 15px;
+    /* Space between icons */
+    padding: 29px;
+    /* margin: 20px; */
+}
+
+.ic1 {
+    font-size: 24px;
+    /* Size of the icons */
+    color: #ffffff;
+    /* Color of the icons */
+    transition: color 0.3s, transform 0.3s;
+    /* Smooth transition for hover effects */
+}
+
+ic {
+    display: flex;
+    /* Align icon within the link */
+    align-items: center;
+    /* Center icon vertically */
+    justify-content: center;
+    /* Center icon horizontally */
+    width: 60px;
+    /* Set a fixed width for the link */
+    height: 60px;
+    /* Set a fixed height for the link */
+    border-radius: 50% solid white;
+    /* Make the link a circle */
+    overflow: hidden;
+    /* Hide overflow */
+    background-color: #c98b8b;
+    /* Background color of the circle */
+    text-decoration: none;
+    /* Remove underline from links */
+}
+
+main img {
+    height: 280px;
+    width: auto;
+    position: absolute;
+    left: 624px;
+    bottom: 16px;
+    border-radius: 50%;
+}
+
+a:hover+name {
+    color: aquamarine;
+    background-color: bisque;
+}
